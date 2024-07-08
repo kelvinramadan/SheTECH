@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.4" prefWidth="1354.4" style="-fx-background-color: #ffe6e8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_oracle.forumsController">
+   <children>
+      <ImageView fitHeight="934.0" fitWidth="1361.0" layoutX="2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/fxmldoc/pastel-7194306_1920.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="65.0" layoutX="16.0" layoutY="10.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1322.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="37.0" layoutX="648.0" layoutY="23.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="285.0" />
+      <ImageView fx:id="profileIcon1" fitHeight="24.0" fitWidth="20.0" layoutX="660.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/FXML_Oracle/image/fxmldoc7/icons8-search-50.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="687.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="profileIcon21" fitHeight="50.0" fitWidth="51.0" layoutX="1051.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/FXML_Oracle/image/fxmldoc7/icons8-chat-48.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="32.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to SheTech Forrums!" wrappingWidth="521.6137237548828">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="1102.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat ">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="49.0" layoutY="130.0" prefHeight="612.0" prefWidth="582.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="961.0" prefWidth="582.0">
+               <children>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="751.0" prefWidth="582.0">
+                     <children>
+                        <Text layoutX="76.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apakah Lapangan pekerjaan untuk mahasiswa lulusan matematika banyak dan layak mengapa?" wrappingWidth="513.2894897460938">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="13.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matematika sering kali dianggap sebagai mata pelajaran yg menakutkan. padahal matematika bisa jadi hal yg menyenangkan. matematika tidak sekedar menghafal rumus lalu menghitung. dengan matematika, kita juga dituntut untuk berpikir secara logis dan sistematis. Banyak sekali bidang pekerjaan untuk lulusan matematika seperti:" wrappingWidth="550.6586074829102" />
+                        <Circle fill="DODGERBLUE" layoutX="42.0" layoutY="42.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Text fill="WHITE" layoutX="33.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sd">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="77.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Samia Dewanti" />
+                        <Text layoutX="79.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mengapa Bidang STEM Sedikit Perempuan?" wrappingWidth="513.2894897460938">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="16.0" layoutY="542.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bersamaan dengan keberpihakan itu, berbarengan dengan perubahan aturan, perubahan cara pandang, maka dibutuhkan solusi-solusi lokal yang kreatif. Di taraf rumah tangga, bagilah tugas yang sama antarjender untuk memahami STEM. Orangtua memberikan peluang dan penghargaan sama antar jender untuk seorang anak berprofesi dalam STEM. Niscaya, ketika anak memasuki dunia pendidikan tinggi pilihan STEM menjadi kemantapan pilihannya.Sinambung dengan upaya rumah tangga, upaya kecil lainnya, di sekolah, guru SD hingga sekolah menengah, perlu memberikan peluang yang sama antar pilihan bidang bagi semua jender. Semakin tinggi jenjang pendidikan semakin dalam konteks berpikir STEM yang menggabungkan dengan konteks komunitas sehingga STEM ramah bagi perempuan.Dalam konteks pendidikan tinggi STEM; dorongan agar perempuan masuk, bertahan, bahkan berkembang secara akademik dan karir perlu memilih pendekatan yang sesuai. Pendidikan STEM dengan konteks komunitas, konteks pemecahan masalah yang berbasis nilai; adalah pendekatan yang ramah perempuan." wrappingWidth="550.6586074829102" />
+                        <Circle fill="#d91fff" layoutX="45.0" layoutY="499.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Text fill="WHITE" layoutX="39.0" layoutY="504.0" strokeType="OUTSIDE" strokeWidth="0.0" text="H">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="80.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hana Maharani" />
+                        <Text layoutX="12.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guru atau DosenGuru atau dosen merupakan profesi paling mainstream bagi lulusan Matematika murni. Tapi meskipun tanpa latarbelakang Pendidikan Matematika, sebagai Sarjana Matematika kamupun bisa mengajarkan konsep-konsep Matematika, ilmu pasti, statistik, hingga implementasi standar teknik Matematika.Penasihat KeuanganBerkat kemampuan hitung-hitutanganmu yang sangat baik, kamu bisa menjadi seorang penasihat keuangan, analis anggaran, ataupun ahli estimasi biaya. Profesi ini memungkinkanmu untuk membantu klien merencanakan keuangan jangka panjang maupun jangka pendek.Peneliti SurveySarjana Matematika memiliki kemampuan statistik yang tak main-main, sehingga sangat dibutuhkan saat hasil survey harus dianalisis. Walaupun tak selalu berkecimpung dibidang penelitian atau riset, seorang Sarjana Matematika masih tetap bisa menjadi seorang ahli statistik.Analis Riset PasarTak hanya menghitung, seorang analis riset pasar juga menganalisa penjualan, kegiatan marketing, hingga biaya produksi. Hasil kerja analis riset pasar akan sangat mempengaruhi keputusan dan langkah bisnis perusahaan.AktuarisBekerja pada perusahaan asuransi, seorang aktuaris menganalisa dan memprediksi bisnis guna meminimalisir risiko. Pada bidang asuransi, lulusan Jurusan Matematika juga bisa menjadi penerbit asuransi, pemeriksa atau penilai klaim asuransi properti , pemeriksa, dan penyelidik klaim asuransi.Selain menjadi seorang ahli atau speasilis matematika, kamu juga bisa mengejar karir dibidang lain, sebagaimana telah disebutkan sebelumnya. Asalkan mau terus belajar untuk mengembangkan diri dan kemampuan, kamu bisa menjadi seorang ahli fisika, astronomer, ekonom, arsitek kelautan, insinyur sipil, insinyur mekanik, insinyur antariksa, ahli kimia, atau bahkan seorang akuntan." wrappingWidth="539.2581062316895" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="55.0" layoutX="48.0" layoutY="75.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="586.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="176.0" layoutX="651.0" layoutY="76.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="278.0" />
+      <Text fill="#39a6d1" layoutX="666.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa itu blockchain dan bagaimana cara kerja dari blockhain tersebut?" wrappingWidth="258.48919677734375" />
+      <Text layoutX="666.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pencarian Terkait" wrappingWidth="166.936767578125" />
+      <Text fill="#39a6d1" layoutX="667.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagaimana mesin pembakaran internal bekerja?" />
+      <Text fill="#39a6d1" layoutX="666.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa itu distribusi normal dan bagaimana aplikasinya dalam analisis data?" wrappingWidth="253.060546875" />
+      <Text fill="#39a6d1" layoutX="666.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagaimana cara menghitung mean, median, dan modus?" wrappingWidth="253.060546875" />
+      <ScrollPane layoutX="649.0" layoutY="260.0" prefHeight="484.0" prefWidth="283.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="614.0" prefWidth="282.0">
+               <children>
+                  <Text fill="#39a6d1" layoutX="18.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa itu blockchain dan bagaimana cara kerja dari blockhain tersebut?" wrappingWidth="258.48919677734375" />
+                  <Text fill="#39a6d1" layoutX="23.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa itu distribusi normal dan bagaimana aplikasinya dalam analisis data?" wrappingWidth="253.060546875" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/fxmldoc/blockchai.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#39a6d1" layoutX="23.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagaimana cara menghitung mean, median, dan modus?" wrappingWidth="253.060546875" />
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/fxmldoc/c25452d198a0323d06c418f7e0352801.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../image/fxmldoc/22af23ddbe92135cffd7647c6dd14025.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <AnchorPane layoutX="951.0" layoutY="76.0" prefHeight="664.0" prefWidth="387.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdd7e4" height="32.0" layoutX="7.0" layoutY="37.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="301.0" />
+            <Text layoutX="15.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Izin bertanya tmen' disini ada yg berbidang engineering tidak ya?" wrappingWidth="300.6500244140623">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7eefc" height="32.0" layoutX="7.0" layoutY="100.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="133.0" />
+            <Text layoutX="15.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="halo saya engineering juga" wrappingWidth="300.6500244140623">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fceed7" height="32.0" layoutX="7.0" layoutY="163.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="62.0" />
+            <Text layoutX="15.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SAYAAAA" wrappingWidth="300.6500244140623">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9d7fc" height="32.0" layoutX="7.0" layoutY="226.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="146.0" />
+            <Text layoutX="15.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="aku software engineering kaa!" wrappingWidth="300.6500244140623">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f2d7fc" height="40.0" layoutX="7.0" layoutY="289.0" stroke="#00ff09" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="278.0" />
+            <Text layoutX="13.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wih kebetulan aku juga engineering, mutual yuk tanya tanya, PAHAMMM!" wrappingWidth="284.6500244140623">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d7fcd7" height="32.0" layoutX="7.0" layoutY="359.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="234.0" />
+            <Text layoutX="10.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="wih ternyata rame juga ya yg di bidang engineer" wrappingWidth="300.6500244140623">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dad7fc" height="32.0" layoutX="116.0" layoutY="410.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="266.0" />
+            <Text layoutX="123.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="saya bukan kak, saya mathematics ada juga kah yg mtk?" wrappingWidth="251.44995117187477">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Samia Dewanti" />
+            <Text layoutX="11.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Astia" />
+            <Text layoutX="11.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unknown" />
+            <Text layoutX="10.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dian Sosro" />
+            <Text layoutX="9.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anisa Rahna" />
+            <Text layoutX="9.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kak Gem Paham" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fad7d7" height="32.0" layoutX="7.0" layoutY="468.0" stroke="#87b489" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="157.0" />
+            <Text layoutX="14.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WIHH SAMA MTK SAYAA" wrappingWidth="173.01562499999972">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buyung Upik" />
+            <TextField fx:id="enterchat" layoutX="13.0" layoutY="625.0" prefHeight="26.0" prefWidth="294.0" promptText="Enter chat" />
+            <Button fx:id="enterbutton" layoutX="316.0" layoutY="625.0" mnemonicParsing="false" onAction="#sendMessage" style="-fx-background-color: #236b69;" text="Enter" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

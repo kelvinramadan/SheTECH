@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.4" prefWidth="1354.4" style="-fx-background-color: #ffe6e8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_oracle.feedback2Controller">
+   <children>
+      <ImageView fitHeight="927.0" fitWidth="1377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/fxmldoc/pastel-7194306_1920.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="118.0" layoutX="38.0" layoutY="10.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1265.0" />
+      <Text fill="WHITE" layoutX="54.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Feedback Page" wrappingWidth="422.48748779296875">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="58.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Here's your Suggestion and Critics." wrappingWidth="654.4875793457031">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <TableView fx:id="feedbackTableView" layoutX="46.0" layoutY="150.0" prefHeight="606.0" prefWidth="1242.0">
+        <columns>
+          <TableColumn fx:id="feedbackColumn" prefWidth="1241.6000236511231" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<list>
+  <user>
+    <name class="javafx.beans.property.SimpleStringProperty">
+      <value>ww</value>
+      <valid>false</valid>
+      <name></name>
+    </name>
+    <address class="javafx.beans.property.SimpleStringProperty">
+      <value>ww</value>
+      <valid>false</valid>
+      <name></name>
+    </address>
+    <email class="javafx.beans.property.SimpleStringProperty">
+      <value>ww</value>
+      <valid>false</valid>
+      <name></name>
+    </email>
+    <phoneNumber class="javafx.beans.property.SimpleStringProperty">
+      <value>ww</value>
+      <valid>false</valid>
+      <name></name>
+    </phoneNumber>
+    <interest class="javafx.beans.property.SimpleStringProperty">
+      <value>ww</value>
+      <valid>false</valid>
+      <name></name>
+    </interest>
+    <bio class="javafx.beans.property.SimpleStringProperty">
+      <value>ww</value>
+      <valid>false</valid>
+      <name></name>
+    </bio>
+  </user>
+</list>

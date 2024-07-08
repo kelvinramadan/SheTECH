@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.4" prefWidth="1354.4" style="-fx-background-color: #ffe6e8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_oracle.ControllerUtama">
+   <children>
+      <ImageView fitHeight="929.0" fitWidth="1365.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/fxmldoc/pastel-7194306_1920.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="265.0" fitWidth="305.0" layoutX="1068.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/fxmldoc/3d-hygge-top-view-of-laptop-headphones-and-notebooks.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="112.0" layoutX="18.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1275.0" />
+      <Text fill="WHITE" layoutX="36.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resource Material" wrappingWidth="698.7811279296875">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="38.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New News For You!">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="19.0" layoutY="144.0" prefHeight="606.0" prefWidth="1150.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1018.0" prefWidth="1129.0">
+               <children>
+                  <AnchorPane layoutX="10.0" layoutY="16.0" prefHeight="213.0" prefWidth="923.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="212.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1101.0" />
+                        <ImageView fitHeight="87.0" fitWidth="200.0" layoutX="12.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/FXML_Oracle/image/fxmldoc/image%207.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="185.0" layoutY="39.1806640625" strokeType="OUTSIDE" strokeWidth="0.0" text="New study finds AI-generated empathy has its limits.">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="185.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conversational agents (CAs) such as Alexa and Siri are designed to answer questions, offer suggestions -- and even display empathy. However, new research finds they do poorly compared to humans when interpreting and exploring a user's experience." wrappingWidth="848.770076751709">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="button1" layoutY="2.0" mnemonicParsing="false" onAction="#nextpage1" opacity="0.0" prefHeight="210.0" prefWidth="1102.0" text="Button" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="13.0" layoutY="245.0" prefHeight="213.0" prefWidth="923.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="199.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1096.0" />
+                        <ImageView fitHeight="87.0" fitWidth="200.0" layoutX="12.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Downloads/FXML_Oracle/image/fxmldoc/image%209.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="185.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yukk, Mengenal Pentingnya Pendidikan STEM dan Peluang Karirnya!" wrappingWidth="694.342529296875">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="185.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Halo MojadiFrens! Apakah MojadiFrens pernah mendengar istilah Pendidikan STEM? Pasti dari sebagian MojadiFrens ada yang belum pernah mendengar istilah tersebut. Nah, dalam artikel ini akan membahas mengenai pentingnya pendidikan STEM bagi masa depan. Yuk simak pembahasannya untuk meraih pengetahuan baru! " wrappingWidth="895.7034873962402">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="button2" layoutX="-8.0" layoutY="-9.0" mnemonicParsing="false" onAction="#nextpage2" opacity="0.0" prefHeight="210.0" prefWidth="1104.0" text="Button" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="12.0" layoutY="503.0" prefHeight="213.0" prefWidth="923.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="252.0" layoutY="-40.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1098.0" />
+                        <ImageView fitHeight="87.0" fitWidth="200.0" layoutX="12.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../image/fxmldoc/c25452d198a0323d06c418f7e0352801.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="185.0" layoutY="-6.8193359375" strokeType="OUTSIDE" strokeWidth="0.0" text="Apa itu distribusi normal dan bagaimana aplikasinya dalam analisis data?">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="185.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conversational agents (CAs) such as Alexa and Siri are designed to answer questions, offer suggestions -- and even display empathy. However, new research finds they do poorly compared to humans when interpreting and exploring a user's experience." wrappingWidth="903.1701011657715">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

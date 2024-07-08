@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.4" prefWidth="1500.0" style="-fx-background-color: #ffe6e8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_oracle.resourceController">
+   <children>
+      <ImageView fitHeight="1079.0" fitWidth="1500.0" layoutX="-3.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/fxmldoc/pastel-7194306_1920.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="265.0" fitWidth="305.0" layoutX="1185.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/fxmldoc/3d-hygge-top-view-of-laptop-headphones-and-notebooks.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="112.0" layoutX="18.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1275.0" />
+      <Text fill="WHITE" layoutX="36.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Resource Material" wrappingWidth="698.7811279296875">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="38.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New News For You!">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="19.0" layoutY="144.0" prefHeight="606.0" prefWidth="1150.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1182.0" prefWidth="1130.0">
+               <children>
+                  <AnchorPane layoutX="10.0" layoutY="16.0" prefHeight="1144.0" prefWidth="1102.0">
+                     <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#236b69" height="1086.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-height: 20; -fx-arc-width: 20;" width="1101.0" />
+                        <ImageView fitHeight="87.0" fitWidth="200.0" layoutX="451.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../image/fxmldoc/image%209.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="179.0" layoutY="39.1806640625" strokeType="OUTSIDE" strokeWidth="0.0" text="Yukk, Mengenal Pentingnya Pendidikan STEM dan Peluang Karirnya!">
+                           <font>
+                              <Font name="System Bold" size="23.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="68.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Halo MojadiFrens! Apakah MojadiFrens pernah mendengar istilah Pendidikan STEM? Pasti dari sebagian MojadiFrens ada yang belum pernah mendengar istilah tersebut. Nah, dalam artikel ini akan membahas mengenai pentingnya pendidikan STEM bagi masa depan. Yuk simak pembahasannya untuk meraih pengetahuan baru! Dikutip dari (Sanders, 2009) istilah STEM bermula dari kantor NSF (National Science Foundation) di Amerika Serikat pada tahun 1990-an. Mereka menggunakan istilah STEM sebagai singkatan untuk “Science, Technology, Engineering, and Mathematics”. Dengan semakin pesatnya perkembangan teknologi dan sains, pendidikan STEM sangat penting bagi para siswa untuk menyiapkan karir di masa depan. Hal ini dikarenakan pendidikan STEM menekankan pada konsep desain teknologi dalam pembelajaran sains dan matematika, sehingga pendidikan STEM juga relevan dalam pengajaran di kurikulum sekolah. Tujuan pendidikan STEM, yaitu dapat meningkatkan kemampuan dalam hal kreativitas, pemecahan masalah, dan berpikir secara kritis. Selain itu, pendidikan STEM juga akan melibatkan para siswa dalam semua tingkatan pendidikan untuk mengerjakan proyek atau kegiatan eksperimen yang dapat meningkatkan skill dan kreativitas. Saat ini, menurut U.S. Bureau of Labor Statistics minat pelajar pada bidang STEM di berbagai negara mengalami penurunan, salah satunya Indonesia. Padahal dengan mendalami pendidikan STEM para siswa dapat meningkatkan keterampilan kolaborasi dan inovasi yang berguna di masa depan. Program pendidikan STEM di berbagai negara sudah menjadi fokus utama di bidang pendidikan dalam upaya mempersiapkan siswa untuk pasar kerja yang semakin kompetitif. Hal ini dibuktikan dengan banyaknya dukungan dari pemerintah dan organisasi profit maupun non profit. Kegiatan program pendidikan ini dapat mencakup eksperimen sains, olimpiade matematika atau pertandingan robotik. Program ini tentunya juga dapat mendorong inovasi dan perkembangan sains untuk memperbaiki ekonomi nasional. Bidang pendidikan STEM sendiri menawarkan banyak peluang karir yang menjanjikan dan menarik. Berikut ini beberapa peluang karir di bidang STEM yang bisa MojadiFrens ketahui, simak yuk pembahasannya! IlmuwanMojadiFrens yang tertarik menjadi seorang ilmuwan, dapat mendalami pendidikan STEM. Ilmuwan memiliki keahlian dan pengetahuan di bidang sains, seperti biologi, fisika, kimia, dan matematika. Biasanya Ilmuwan bekerja di universitas, institusi penelitian, perusahaan, dan lembaga pemerintah. ProgrammerPilihan karir lain di bidang pendidikan STEM, yaitu programmer. Pengembang perangkat lunak, atau yang biasa disebut programmer adalah seseorang yang membuat atau merancang, mengembangkan, dan memelihara program komputer. Programmer biasanya bekerja di perusahaan teknologi informasi, perbankan, bahkan juga kesehatan. MojadiFrens yang menginginkan menjadi seorang programmer, dapat mulai mempelajari bidang pendidikan STEM terutama technology dan engineering. Data AnalystData Analyst memiliki keahlian yang kuat dalam statistik, pemrograman, dan matematika. MojadiFrens yang ingin bekerja sebagai data analyst, perlu mengetahui bahwa data analyst mengumpulkan dan menganalisis data untuk membantu organisasi dalam mengambil keputusan. Data Analyst juga menggunakan teknologi dan perangkat lunak untuk mengumpulkan dan menganalisis data penjualan, pelanggan, bahkan keuangan untuk mengkomunikasikan hasil analisis tersebut kepada pihak yang berkepentingan. Dokter &amp; Ahli BiomedisMojadiFrens yang mulai tertarik untuk menjadi dokter dan ahli biomedis dapat mengikuti program pelatihan di bidang pendidikan STEM. Pilihan karir ini juga sangat membutuhkan pengetahuan sains dan teknologi dalam merawat pasien. Dokter dan ahli biomedis juga menggunakan teknologi dan perangkat lunak untuk mendiagnosis dan merawat pasien. Oleh karena itu, MojadiFrens perlu meningkatkan pengetahuan dan keterampilan di bidang pendidikan STEM. Itulah pilihan karir di bidang pendidikan STEM, MojadiFrens mengetahui betapa pentingnya kita untuk meningkatkan keterampilan dan pengetahuan untuk sukses di berbagai bidang. Tidak hanya itu, peluang karir di bidang pendidikan STEM juga sangat menjanjikan dan terjamin bagi masa depan. Dalam artikel ini tentunya MojadiFrens sudah mengetahui pentingnya pendidikan STEM dan peluang kerjanya. Semoga dengan artikel ini, MojadiFrens dapat menambah pemahaman dan wawasan tentang pentingnya pendidikan STEM dan pengaruhnya bagi masa depan. " wrappingWidth="984.2367744445801">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="backButton" layoutX="23.0" layoutY="17.0" mnemonicParsing="false" onAction="#back1" text="Back to Menu" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
